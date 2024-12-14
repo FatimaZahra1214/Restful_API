@@ -1,0 +1,20 @@
+rest api  -- json format
+// use mockaroo for the data
+
+Get / user - List all user              // for brower
+
+Get /api/user - List all user           // for mobile developer   
+Get /api/user/1 - get the user by id
+
+// Dynamic Path Parameter
+// Get /api/user/:id
+// id --> is a variable
+
+
+//FROM THERE PROBLEM START BECAUSE BROWER ARE EASILY DOING THE GET BY NOT THSES 
+
+Post /api/user - create the user
+
+Patch /api/user/1 - update the user by id
+
+Delete /api/user/1 - delete the user with id 1
